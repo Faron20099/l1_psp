@@ -27,11 +27,6 @@ public class Main {
         }
         //arr[0]=p1;
         //arr[1]=p2;
-        for(int i=0; i<arr.length;i++){
-            if(arr[i].getSex().equals("man")){
-                count++; average+=arr[i].getAge();
-            }
-        }
         if(count!=0) System.out.println("Мужчин: "+count+" Средний возраст222: " +(int)(average/count));
         Person.func();
         WriterInfo.infoOut(arr[0]);
