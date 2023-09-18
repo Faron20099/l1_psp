@@ -32,3 +32,5 @@ public class Main {
         WriterInfo.infoOut(arr[0]);
     }
 }
+
+//коментарий
